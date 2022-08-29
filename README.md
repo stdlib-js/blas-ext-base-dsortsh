@@ -31,7 +31,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dsortsh from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsortsh@deno/mod.js';
+import dsortsh from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsortsh@v0.0.10-deno/mod.js';
 ```
 
 #### dsortsh( N, order, x, stride )
@@ -143,7 +143,7 @@ dsortsh.ndarray( 3, 1.0, x, 1, x.length-3 );
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@deno/mod.js';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
-import dsortsh from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsortsh@deno/mod.js';
+import dsortsh from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsortsh@v0.0.10-deno/mod.js';
 
 var rand;
 var sign;
