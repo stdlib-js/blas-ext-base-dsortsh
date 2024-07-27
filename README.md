@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dsortsh from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsortsh@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-dsortsh/tags). For example,
+
+```javascript
 import dsortsh from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsortsh@v0.2.2-esm/index.mjs';
 ```
 
@@ -154,7 +159,7 @@ dsortsh.ndarray( 3, 1.0, x, 1, x.length-3 );
 
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
 var uniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform' ).factory;
-import dsortsh from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsortsh@v0.2.2-esm/index.mjs';
+import dsortsh from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsortsh@esm/index.mjs';
 
 var x = filledarrayBy( 100, 'float64', uniform( -100.0, 100.0 ) );
 console.log( x );
