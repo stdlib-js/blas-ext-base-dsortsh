@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dsortsh from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsortsh@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-dsortsh/tags). For example,
+
+```javascript
 import dsortsh from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsortsh@v0.2.2-deno/mod.js';
 ```
 
@@ -149,7 +154,7 @@ dsortsh.ndarray( 3, 1.0, x, 1, x.length-3 );
 ```javascript
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
 var uniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform' ).factory;
-import dsortsh from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsortsh@v0.2.2-deno/mod.js';
+import dsortsh from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsortsh@deno/mod.js';
 
 var x = filledarrayBy( 100, 'float64', uniform( -100.0, 100.0 ) );
 console.log( x );
